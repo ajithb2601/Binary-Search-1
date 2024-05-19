@@ -1,4 +1,13 @@
+// Time Complexity : 0(logN)
+// Space Complexity : 0(1)
+// Did this code successfully run on Leetcode : Yes
+// Any problem you faced while coding this : No
 
+
+// Your code here along with comments explaining your approach in three sentences only
+
+After finding middle element check if left side is sorted. If yes then check if target element exist. 
+If left side is not sorted then that means right side is sorted and move L = Mid+1 and find target element
 
 
 class Solution {
